@@ -1,0 +1,11 @@
+host_ip = "192.168.1.1"
+extra_ssh_args = ["-C"]
+#extra_wsl_args = []
+
+[[distribution]]
+name = "Ubuntu"
+
+[[distribution]]
+name = "Debian"
+username = "locust"
+port = 4444
