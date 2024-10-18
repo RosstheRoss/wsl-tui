@@ -58,7 +58,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	// fmt.Println(config)
+	accessibleMode := os.Getenv("ACCESSIBLE") != ""
 
 	var distro Distribution
 
@@ -79,7 +79,7 @@ func main() {
 				}, &config,
 				),
 		),
-	).WithTheme(huh.ThemeDracula()).Run()
+	).WithAccessible(accessibleMode).WithTheme(huh.ThemeDracula()).Run()
 
 	if err != nil {
 		if err == huh.ErrUserAborted {
