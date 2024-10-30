@@ -3,9 +3,9 @@ module git.mattstrapp.net/wsl-tui
 go 1.23.2
 
 require (
-	github.com/adrg/xdg v0.5.1
+	github.com/adrg/xdg v0.5.2
 	github.com/charmbracelet/huh v0.6.0
-	github.com/locusts-r-us/locusts v0.0.0-20241017222834-aea14464705c
+	github.com/locusts-r-us/locusts v0.0.0-20241030133148-9a202109e07b
 	github.com/pelletier/go-toml/v2 v2.2.3
 )
 
@@ -14,10 +14,10 @@ require (
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/catppuccin/go v0.2.0 // indirect
 	github.com/charmbracelet/bubbles v0.20.0 // indirect
-	github.com/charmbracelet/bubbletea v1.1.0 // indirect
-	github.com/charmbracelet/lipgloss v0.13.0 // indirect
-	github.com/charmbracelet/x/ansi v0.2.3 // indirect
-	github.com/charmbracelet/x/exp/strings v0.0.0-20240722160745-212f7b056ed0 // indirect
+	github.com/charmbracelet/bubbletea v1.1.2 // indirect
+	github.com/charmbracelet/lipgloss v0.13.1 // indirect
+	github.com/charmbracelet/x/ansi v0.4.2 // indirect
+	github.com/charmbracelet/x/exp/strings v0.0.0-20241029204245-3ef5e7b1ea37 // indirect
 	github.com/charmbracelet/x/term v0.2.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/erikgeiser/coninput v0.0.0-20211004153227-1c3628e74d0f // indirect
@@ -32,5 +32,5 @@ require (
 	github.com/rivo/uniseg v0.4.7 // indirect
 	golang.org/x/sync v0.8.0 // indirect
 	golang.org/x/sys v0.26.0 // indirect
-	golang.org/x/text v0.18.0 // indirect
+	golang.org/x/text v0.19.0 // indirect
 )
